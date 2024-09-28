@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <header className="bg-white  shadow-lg h-20 flex items-center justify-between px-6 border border-gray-300">
+    <header className="bg-white  max-sm:fixed z-50 max-sm:w-[100%]  shadow-lg h-20 flex items-center justify-between px-6 border border-gray-300">
       <div className="flex items-center">
         <Link href="/" passHref>
           <Image

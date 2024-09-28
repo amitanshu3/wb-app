@@ -59,8 +59,8 @@ export default function Modal({ isOpen, onClose, currentStatistics }) {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 bg-gray-600 bg-opacity-50 flex items-center justify-center z-50">
-      <div className="bg-white p-6 rounded-lg shadow-lg relative z-60">
+    <div className="fixed inset-0  bg-gray-600 bg-opacity-50 flex items-center justify-center z-50 ">
+      <div className="bg-white p-6 rounded-lg shadow-lg relative z-60 max-sm:max-w-sm ">
         <div className="flex justify-between">
           <h2 className="text-2xl font-bold mb-4">Update scores</h2>
 

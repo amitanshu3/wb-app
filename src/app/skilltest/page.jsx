@@ -20,14 +20,14 @@ export default function SkillTest() {
   return (
     <Layout>
       <main className="flex-1 pt-20 md:p-6">
-        <h1 className="text-2xl font-bold mb-6 max-sm:ml-6">Skill Test</h1>
+        <h1 className="text-2xl font-bold mb-6 max-sm:ml-6 max-sm:mt-2">Skill Test</h1>
         <div className="flex flex-col md:flex-row gap-6">
           <div className="flex flex-col gap-6 max-sm:w-[85%] max-sm:mx-auto sm:m-0 w-full md:w-2/3 ">
             <SkillTestCard toggleModal={toggleModal} />
             <QuickStatistics />
             <ComparisonGraph />
           </div>
-          <div className="flex flex-col max-sm:w-[80%] max-sm:mx-auto gap-6 w-full md:w-1/3">
+          <div className="flex flex-col max-sm:w-[85%] max-sm:mx-auto gap-6 w-full md:w-1/3">
             <SyllabusWiseAnalysis />
             <QuestionAnalysis />
           </div>

@@ -25,7 +25,7 @@ export default function Sidebar() {
       >
         <nav>
           <ul>
-            <li className="mb-6 mt-6 sm:mt-0">
+            <li className="mb-6 max-sm:mt-16 mt-6 sm:mt-0">
               <Link
                 href="/dashboard"
                 className={`block text-lg font-semibold py-2 px-3  transition-all duration-300 ${
