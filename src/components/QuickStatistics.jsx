@@ -25,7 +25,7 @@ const QuickStatistics = () => {
             </div>
             <span className="text-xl font-bold">{statistics.percentile}%</span>
           </div>
-          <p className="text-sm text-gray-500 mt-1">Percentile</p>
+          <p className="text-sm text-gray-500 mt-1">Percentile </p>
         </div>
 
         <div className="flex flex-col items-center md:items-start">

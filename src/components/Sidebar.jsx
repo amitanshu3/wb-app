@@ -28,7 +28,7 @@ export default function Sidebar() {
             <li className="mb-6 mt-6 sm:mt-0">
               <Link
                 href="/dashboard"
-                className={`block text-lg font-semibold py-2 px-4  transition-all duration-300 ${
+                className={`block text-lg font-semibold py-2 px-3  transition-all duration-300 ${
                   pathname === "/dashboard"
                     ? "text-blue-500 bg-gray-200 rounded-r-full"
                     : "text-gray-800 hover:text-white hover:bg-blue-500 rounded-r-full"
@@ -40,7 +40,7 @@ export default function Sidebar() {
             <li className="mb-6">
               <Link
                 href="/skilltest"
-                className={`block text-lg font-semibold py-2 px-4  transition-all duration-300 ${
+                className={`block text-lg font-semibold py-2 px-3  transition-all duration-300 ${
                   pathname === "/skilltest"
                     ? "text-blue-500 bg-gray-200 rounded-r-full"
                     : "text-gray-800 hover:text-white hover:bg-blue-500 rounded-r-full"
@@ -52,7 +52,7 @@ export default function Sidebar() {
             <li className="mb-6">
               <Link
                 href="/internship"
-                className={`block text-lg font-semibold py-2 px-4  transition-all duration-300 ${
+                className={`block text-lg font-semibold py-2 px-3  transition-all duration-300 ${
                   pathname === "/internship"
                     ? "text-blue-500 bg-gray-200 rounded-r-full"
                     : "text-gray-800 hover:text-white hover:bg-blue-500 rounded-r-full "
